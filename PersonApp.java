@@ -10,9 +10,12 @@ System.out.println(person1.name);
 System.out.println(person1.address);
 System.out.println(person1.country);
 
-
+person1.sayHello ("Mukhtar");
 
 Person person2 = new Person();
+person2.name = "Mukhtar";
+person2.sayHello("Nashir");
+
 
 Person person3;
 person3 = new Person();
